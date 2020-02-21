@@ -49,6 +49,11 @@ section{
     top: 50px;
 }
 
+.link-button:hover{
+    color: blue;
+    box-shadow: 5px 5px 10px gray;
+}
+
 .header-area{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
@@ -67,4 +72,48 @@ section{
     background-image: url(images/latest-work-bg.png);
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.work-img:hover{box-shadow: 5px 5px 20px grey;}
+
+
+
+.client-area{
+    height: 500px;
+    text-align: center;
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.client-area span{
+    color: dimgray;
+}
+
+#comment{
+    width: 40%;
+    margin: auto;
+}
+
+#contact{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    background-image: linear-gradient(45deg, palevioletred, tomato);
+    padding: 15px 30px;
+    border-radius: 5px;
+    position: relative;
+    top: 10%;
+}
+
+#contact:hover{
+    color: blue;
+    box-shadow: 10px 10px 40px grey;
+}
+
+
+footer p{
+    color: dimgray;
+    font-size: 12px;
+    text-align: center;
 }
