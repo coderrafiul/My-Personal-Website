@@ -7,6 +7,10 @@ h1{font-size: 50px;}
 h2{font-size: 60px;}
 h3{font-size: 40px;}
 
+#img1{
+    position: relative;
+    right: 200px;
+}
 section{
     height: 600px;
     padding-bottom: 150px;
@@ -23,7 +27,8 @@ section{
 }
 
 .half-width img{
-    width: 100%;
+    width: 130%;
+   
 }
 
 .one-third-width{
